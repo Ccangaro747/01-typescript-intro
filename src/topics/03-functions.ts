@@ -20,6 +20,4 @@ const multiplyResult: number = multiply(5);
 console.log({result, result2, multiplyResult});
 
 
-addNumbers(1, 2);
-
 export{};
