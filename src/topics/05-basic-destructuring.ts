@@ -37,5 +37,17 @@ console.log('Duration:', duration);
 // Imprime en la consola el valor de la variable author.
 console.log('Author:', author);
 
-// Exporta un objeto vacío. Esto indica que este archivo es un módulo que puede ser importado en otros archivos, pero en este caso, no exporta ningún valor específico.
+
+
+
+//Desestructuración de objetos en TypeScript, utilizamos llaves cuadradas [] para acceder a los elementos de un array.
+
+const dbz: string[] = ['Goku', 'Vegeta', 'Trunks'];
+
+console.log('Personaje 1:', dbz[0]); // Accediendo al primer elemento del array
+
+
+
+
+
 export {};
