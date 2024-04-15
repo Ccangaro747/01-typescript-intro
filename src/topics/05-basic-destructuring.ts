@@ -42,9 +42,16 @@ console.log('Author:', author);
 
 //Desestructuración de objetos en TypeScript, utilizamos llaves cuadradas [] para acceder a los elementos de un array.
 
-const dbz: string[] = ['Goku', 'Vegeta', 'Trunks'];
+const dbz: string[] = ['Goku', 'Vegeta', 'Trunks']; // Sin desestructuración
 
-console.log('Personaje 1:', dbz[0]); // Accediendo al primer elemento del array
+console.log('Personaje 1:', dbz[0] || 'No hay personaje'); // Accediendo al primer elemento del array
+
+
+// Desestructuración de arrays en TypeScript (destructuring) - Sintaxis con llaves cuadradas [] para acceder a los elementos de un array.
+
+const [goku, , ] = dbz; // Con desestructuración, le dejo un espacio vacío para no asignar el valor de Vegeta y Trunks
+
+console.log('Personaje 1:', goku); // Accediendo al primer elemento del array
 
 
 
